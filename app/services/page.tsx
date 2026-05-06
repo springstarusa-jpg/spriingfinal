@@ -21,7 +21,7 @@ export default function ServicesPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           {[
             { title: "Commercial & Industrial HVAC Services", icon: Wrench, items: ["HVAC services", "Chiller & boiler maintenance", "AHU & filtration upgrades", "Ventilation systems", "Controls optimization", "Preventive maintenance Programs", "Emergency repair response", "Utility system support"] },
-            { title: "Energy Optimization Services", icon: Zap, items: ["Energy-saving upgrades", "HVAC efficiency improvement", "Utility audits", "Operational optimization", "Facility energy reduction solutions"] },
+            { title: "Energy Optimization Services", icon: Zap, items: ["Energy-saving upgrades", "HVAC efficiency improvement", "Energy Audit", "Operational optimization", "Facility energy reduction solutions"] },
             { title: "Design & Project Services", icon: ClipboardList, items: ["HVAC design support", "Mechanical coordination", "Project management", "Testing & commissioning", "Upgrading & retrofit works"] }
           ].map((svc, idx) => (
             <div key={idx} className="bg-white p-8 rounded-2xl border-2 border-blue-100 shadow-sm hover:border-blue-500 transition-all duration-300">
@@ -75,7 +75,7 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 gap-4">
                 {[
                   "Pharmaceutical Facilities", "Laboratories", "Medical Device Manufacturing", 
-                  "Cosmetic Manufacturing", "Nutraceutical Facilities", "Food & Beverage Plants", "Cold Storage Facilities"
+                  "Cosmetic Manufacturing", "Food & Beverage Plants"
                 ].map(i => (
                   <div key={i} className="flex items-center gap-3 text-black font-semibold text-sm">
                     <span className="text-blue-600 font-bold">→</span>
